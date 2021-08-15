@@ -1,0 +1,15 @@
+{
+  "name": "vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.8"
+  },
+  "dependencies": {
+    "less": "^4.1.1"
+  }
+}

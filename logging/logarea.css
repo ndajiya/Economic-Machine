@@ -1,0 +1,27 @@
+#idLogArea {
+  box-sizing: border-box;
+  width: 60vw;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 2px solid grey;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+#idLogArea > li {
+  text-align: left;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#idLogArea > li:last-child {
+  border-bottom: none;
+}
+
+#idLogArea > li:nth-child(even) {
+  background: #f8f8f8;
+}
